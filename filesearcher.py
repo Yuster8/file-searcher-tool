@@ -7,8 +7,8 @@ from colorama import Fore, init
 init(autoreset=True)
 
 def print_banner():
-    # Create a big ASCII version of "ROY MADEFUCKLES"
-    banner_text = pyfiglet.figlet_format("Tnah J4", font="slant")  # You can change the font here
+    # Create a big ASCII version of "TINAH AND J4 "
+    banner_text = pyfiglet.figlet_format("Tnah and  J4", font="slant")  # You can change the font here
     print(Fore.CYAN + banner_text)
     
     # List of possible decorations (ASCII art)
@@ -67,7 +67,7 @@ def print_banner():
     # Print the random decoration
     print(Fore.GREEN + selected_decoration)
     print(Fore.YELLOW + "Welcome to the File Searcher Tool!")
-    print(Fore.GREEN + "Developed by: Roy Madefuckles\n")
+    print(Fore.GREEN + "Developed by: Tnah && Madefuckles\n")
 
 def find_file(file_name, search_dir='/'):
     """
