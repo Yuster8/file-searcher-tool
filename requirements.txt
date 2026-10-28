@@ -1,7 +1,2 @@
-beautifulsoup4
-requests
-scikit-learn
-joblib
-transformers
-torch
+pyfiglet
 colorama
